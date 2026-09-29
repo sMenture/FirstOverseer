@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27df71eafcb52ca46a25be70d8ee5d8c, type: 3}
+  m_Name: AngularHingeJointLockTraitSO
+  m_EditorClassIdentifier: Assembly-CSharp::FirstOverseer.World.Objects.HingeJointLockTraitSO
+  States:
+  - rid: 4899752063448121451
+  - rid: 4899752063448121453
+  <DefaultStateIndex>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4899752063448121451
+      type: {class: AngularJointStateData, ns: FirstOverseer.World.Objects, asm: Assembly-CSharp}
+      data:
+        StateKey: Locked
+        TargetAngle: 0
+        AngularSpring: 200
+        AngularDamper: 50
+        UseLimits: 1
+        AngleLimit: 90
+    - rid: 4899752063448121453
+      type: {class: AngularJointStateData, ns: FirstOverseer.World.Objects, asm: Assembly-CSharp}
+      data:
+        StateKey: Unlocked
+        TargetAngle: 0
+        AngularSpring: 5
+        AngularDamper: 1
+        UseLimits: 1
+        AngleLimit: 90

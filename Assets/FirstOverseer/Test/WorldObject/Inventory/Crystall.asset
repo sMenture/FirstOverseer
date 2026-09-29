@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33b36b848419634b82e5722778a16af, type: 3}
+  m_Name: Crystall
+  m_EditorClassIdentifier: Assembly-CSharp::FirstOverseer.World.Objects.WorldObjectSO
+  <Id>k__BackingField: item_apple
+  <NameKey>k__BackingField: Apple
+  <Prefab>k__BackingField: {fileID: 0}
+  <Sprite>k__BackingField: {fileID: 21300000, guid: b49dc974a12cd1f41be5c93e935d9ff5, type: 3}
+  <ItemRaritySO>k__BackingField: {fileID: 11400000, guid: c62af66dec87208479139a9df38276bb, type: 2}
+  <Traits>k__BackingField:
+  - {fileID: 11400000, guid: be67e47b48a227f4f9a9aa717a09d3aa, type: 2}
+  - {fileID: 11400000, guid: bc9dbfca611ea884d9ce0239713910ac, type: 2}

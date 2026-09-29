@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 777706ad0a280da438a002bc594e45c3, type: 3}
+  m_Name: PlayerCameraSettings
+  m_EditorClassIdentifier: Assembly-CSharp::FirstOverseer.World.Player.Camera.Settings.PlayerCameraSettings
+  <Rotation>k__BackingField:
+    SensitivityX: 15
+    SensitivityY: 15
+    MinPitch: -85
+    MaxPitch: 85
+  <Tilt>k__BackingField:
+    TiltAmountZ: 0.5
+    MaxRoll: 20
+    TiltSpeedZ: 3
+    ReturnSpeedZ: 4
+    ForwardPitchAmount: 20
+    MaxForwardPitch: 0.8
+    TiltSpeedX: 4
+    ReturnSpeedX: 3
+    VerticalTiltAmount: 0.15
+    MaxVerticalPitch: 40
+  <Bob>k__BackingField:
+    MaxAmplitude: 0.1
+    MinAmplitude: 0.05
+    MinFrequency: 4
+    MaxFrequency: 14
+    ReturnSpeed: 3

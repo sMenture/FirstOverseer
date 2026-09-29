@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33b36b848419634b82e5722778a16af, type: 3}
+  m_Name: Door
+  m_EditorClassIdentifier: Assembly-CSharp::FirstOverseer.World.Objects.WorldObjectSO
+  <Id>k__BackingField: 0
+  <NameKey>k__BackingField: Door
+  <Prefab>k__BackingField: {fileID: 0}
+  <Traits>k__BackingField:
+  - {fileID: 11400000, guid: 91107d84ee0c3ef4eadcbc89f6969d5a, type: 2}

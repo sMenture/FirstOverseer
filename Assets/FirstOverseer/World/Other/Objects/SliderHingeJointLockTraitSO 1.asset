@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27df71eafcb52ca46a25be70d8ee5d8c, type: 3}
+  m_Name: SliderHingeJointLockTraitSO 1
+  m_EditorClassIdentifier: Assembly-CSharp::FirstOverseer.World.Objects.HingeJointLockTraitSO
+  States:
+  - rid: 4899752063448121471
+  - rid: 4899752063448121473
+  <DefaultStateIndex>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 4899752063448121471
+      type: {class: LinearJointStateData, ns: FirstOverseer.World.Objects, asm: Assembly-CSharp}
+      data:
+        StateKey: Locked
+        TargetDistance: 0
+        LinearSpring: 1500
+        LinearDamper: 1000
+        UseLimits: 0
+        MaxDistance: 1
+    - rid: 4899752063448121473
+      type: {class: LinearJointStateData, ns: FirstOverseer.World.Objects, asm: Assembly-CSharp}
+      data:
+        StateKey: Unlocked
+        TargetDistance: 1.6
+        LinearSpring: 1500
+        LinearDamper: 1000
+        UseLimits: 0
+        MaxDistance: 1

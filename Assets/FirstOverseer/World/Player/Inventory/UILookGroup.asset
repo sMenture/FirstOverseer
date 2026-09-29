@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aead56bab61a1e45b5a0ada0515ce10, type: 3}
+  m_Name: UILookGroup
+  m_EditorClassIdentifier: Assembly-CSharp::FirstOverseer.Global.Other.Architecture.LockGroupSO
+  _lockChannels:
+  - {fileID: 11400000, guid: 9e85ad998cfe5374380cc92f0286bfcc, type: 2}
+  - {fileID: 11400000, guid: 2a250d84d8a5584438e7446824d4844c, type: 2}
+  - {fileID: 11400000, guid: afb2b224baf76df47af739b84fd57a90, type: 2}
