@@ -2108,7 +2108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -540}
+  m_AnchoredPosition: {x: 10, y: -540}
   m_SizeDelta: {x: 0, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1765657665
@@ -2386,7 +2386,6 @@ MonoBehaviour:
   _storageUI: {fileID: 2068047806}
   _inventory: {fileID: 2068047807}
   _previewUI: {fileID: 2068047809}
-  _equipmentManager: {fileID: 0}
   _inventoryThemmeConfig: {fileID: 11400000, guid: 66ee6a5501d0f3e4499ff8ad61837999, type: 2}
   _inputReader: {fileID: 11400000, guid: 38e35620e1a427147922a20bc1b631c3, type: 2}
 --- !u!114 &2068047809
